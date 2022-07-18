@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '3.0.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1.4'
+gem 'rails', '~> 7.0.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -70,11 +70,11 @@ gem 'rack-cache' # http caching
 gem 'sidekiq'
 
 # Spree gems
-spree_opts = '>= 4.4.0'
-gem 'spree', spree_opts
+spree_opts = '>= 4.4.0.rc1'
+gem 'spree', { github: 'spree/spree', branch: 'main' }
+gem 'spree_backend', { github: 'spree/spree_backend', branch: 'main' }
 gem 'spree_sample', spree_opts
 gem 'spree_emails', spree_opts
-gem 'spree_backend', spree_opts
 gem 'spree_gateway'
 gem 'spree_auth_devise'
 gem 'spree_i18n', '>= 5.0'
@@ -102,3 +102,4 @@ gem 'oj'
 
 # Fix SCSS errors with Ruby 3 on MacOS
 gem 'sassc', github: 'sass/sassc-ruby', group: :development
+
