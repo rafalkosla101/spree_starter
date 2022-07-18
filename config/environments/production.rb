@@ -1,6 +1,6 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-
+  Rails.application.config.active_record.yaml_column_permitted_classes = [Symbol]
   # Code is not reloaded between requests.
   config.cache_classes = true
 
