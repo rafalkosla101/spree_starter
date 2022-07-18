@@ -719,6 +719,7 @@ DEPENDENCIES
   rails (~> 7.0.0)
   remote_syslog_logger
   rspec_junit_formatter
+  ruby-vips
   sass-rails
   sassc!
   scout_apm
