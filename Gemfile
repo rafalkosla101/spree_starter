@@ -75,8 +75,8 @@ gem 'spree', { github: 'spree/spree', branch: 'main' }
 gem 'spree_backend', { github: 'spree/spree_backend', branch: 'main' }
 gem 'spree_sample', spree_opts
 gem 'spree_emails', spree_opts
-gem 'spree_gateway'
-gem 'spree_auth_devise'
+gem 'spree_gateway', { github: 'spree/spree_gateway', branch: 'main' }
+gem 'spree_auth_devise', { github: 'spree/spree_auth_devise', branch: 'main' }
 gem 'spree_i18n', '>= 5.0'
 gem 'spree_dev_tools', require: false, group: %w[test development]
 
