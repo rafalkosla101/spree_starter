@@ -1,13 +1,6 @@
 GIT
-  remote: https://github.com/sass/sassc-ruby.git
-  revision: 4fce2b635ca5d616a8b1381c64846410bc785ea4
-  specs:
-    sassc (2.4.0)
-      ffi (~> 1.9)
-
-GIT
-  remote: https://github.com/spree/spree.git
-  revision: d894358e49b8c3a7f6944e838de7cd92510e31d0
+  remote: https://github.com/rafalkosla101/spree.git
+  revision: 730e6ddb2f62b84987c2af3608868ebf40487d69
   branch: main
   specs:
     spree (5.0.0.alpha)
@@ -51,6 +44,13 @@ GIT
       state_machines-activerecord (~> 0.6)
       stringex
       validates_zipcode
+
+GIT
+  remote: https://github.com/sass/sassc-ruby.git
+  revision: 4fce2b635ca5d616a8b1381c64846410bc785ea4
+  specs:
+    sassc (2.4.0)
+      ffi (~> 1.9)
 
 GIT
   remote: https://github.com/spree/spree_auth_devise.git
